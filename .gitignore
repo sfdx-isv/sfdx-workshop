@@ -2,3 +2,4 @@
 /docs/_site
 /docs/Gemfile.lock
 /theme_docs/_site
+/theme_docs/Gemfile.lock
