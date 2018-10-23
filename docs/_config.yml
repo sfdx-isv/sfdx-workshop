@@ -11,18 +11,18 @@
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
 # theme                  : "minimal-mistakes-jekyll"
-# remote_theme           : "mmistakes/minimal-mistakes"
+remote_theme             : "sfdx-isv/minimal-mistakes"
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Site Title"
+title                    : "SFDX Workshop"
 title_separator          : "-"
 name                     : "Your Name"
 description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+url                      : "https://sfdx-isv.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : "/sfdx-workshop"             # the subpath of your site, e.g. "/blog"
+repository               : "sfdx-isv/sfdx-workshop"     # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -78,7 +78,7 @@ naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username               :
+  username               : "VivekMChawla"
 facebook:
   username               :
   app_id                 :
@@ -87,8 +87,8 @@ og_image                 : # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
+  type                   : "Organization"                         # Person or Organization (defaults to Person)
+  name                   : "Salesforce ISV Technical Enablement"  # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
 
 # Analytics
@@ -101,15 +101,15 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
+  name             : "Vivek M. Chawla"
+  avatar           : "/assets/images/VMC-500x500.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "This is the author bio"
+  location         : "San Francisco, CA"
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: mailto:your.name@email.com
+      url: mailto:vchawla@salesforce.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -119,9 +119,9 @@ author:
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+    - label : "GitHub"
+      icon  : "fab fa-fw fa-github"
+      url   : "https://github.com/sfdx-isv"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -275,8 +275,57 @@ compress_html:
     envs: development
 
 
+# Collections
+collections:
+  workbook_0:
+    output: true
+    permalink: /:collection/:path/
+  workbook_1:
+    output: true
+    permalink: /:collection/:path/
+  workbook_2:
+    output: true
+    permalink: /:collection/:path/
+
+
 # Defaults
 defaults:
+  # _workbook_0
+  - scope:
+      path: ""
+      type: workbook_0
+    values:
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      sidebar:
+        nav: "workbook_0"
+  # _workbook_1
+  - scope:
+      path: ""
+      type: workbook_1
+    values:
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      sidebar:
+        nav: "workbook_1"
+  # _workbook_2
+  - scope:
+      path: ""
+      type: workbook_2
+    values:
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      sidebar:
+        nav: "workbook_2"
   # _posts
   - scope:
       path: ""

@@ -1,12 +1,228 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
+  - title: "Prerequisites"
+    url: /prerequisites/overview/
+  - title: "Managed Packages with SFDX"
+    url: /sfdx-managed-packages/overview/
+  - title: "Team Development with SFDX"
+    url: /sfdx-team-development/overview/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+
+
+# Workbook 0 (Prerequisites)
+workbook_0:
+  - title: "Workshop Prerequisites"
+    children: 
+      - title: "Overview"
+        url: /prerequisites/overview/
+  - title: "Setup Tools"
+    children: 
+      - title: "Install the Salesforce CLI"
+        url: /prerequisites/install-the-salesforce-cli/
+      - title: "Install Git"
+        url: /prerequisites/xxxxx
+      - title: "Install Visual Studio Code"
+        url: /prerequisites/xxxxx
+      - title: "Install the Salesforce Extensions for VS Code"
+        url: /prerequisites/xxxxx
+  - title: "Setup Environments"
+    children: 
+      - title: "Enable Developer Hub in Your PBO"
+        url: /prerequisites/xxxxx
+      - title: "Create Simple Managed Package"
+        url: /prerequisites/xxxxx
+      - title: "Link Your Package Namespace to Your Dev Hub"
+        url: /prerequisites/xxxxx
+      - title: "Connect the CLI to Your Dev Hub"
+        url: /prerequisites/xxxxx
+      - title: "Connect the CLI to Your Packaging Org"
+        url: /prerequisites/xxxxx
+  - title: "Complete Pre-Workshop, Self-Directed Study Requirements"
+    children: 
+      - title: "xxxxxxx"
+        url: /prerequisites/xxxxx
+      - title: "xxxxxxx"
+        url: /prerequisites/xxxxx
+      - title: "xxxxxxx"
+        url: /prerequisites/xxxxx
+      - title: "xxxxxxx"
+        url: /prerequisites/xxxxx
+
+
+# Workbook 1 (Managed Packages with SFDX)
+workbook_1:
+  - title: "Managed Packages with SFDX"
+    children: 
+      - title: "Workbook Overview"
+        url: /sfdx-managed-packages/overview/
+      - title: "Prerequisites Check"
+        url: /sfdx-managed-packages/prerequisites-check/
+      - title: "How to Use This Workbook"
+        url: /sfdx-managed-packages/how-to-use-this-workbook/
+
+  - title: "Unit 1: Prepare Your Developer Hub"
+    children:
+      - title: "Unit Overview"
+        url: /sfdx-managed-packages/unit-1-overview/
+      - title: "Log in to Your Developer Hub"
+        url: /sfdx-managed-packages/log-in-to-your-developer-hub/
+      - title: "Create an \"SFDX Developer\" Profile"
+        url: /sfdx-managed-packages/create-sfdx-developer-profile/
+      - title: "Register Your Packaging Org's Namespace"
+        url: /sfdx-managed-packages/register-packaging-org-namespace/
+
+  - title: "Unit 2: Salesforce CLI Fundamentals"
+    children: 
+      - title: "Unit Overview"
+        url: /sfdx-managed-packages/unit-2-overview/
+      - title: "Connect the CLI to Your Dev Hub"
+        url: /sfdx-managed-packages/connect-cli-to-developer-hub/
+      - title: "Connect the CLI to Your Packaging Org"
+        url: /sfdx-managed-packages/connect-cli-to-packaging-org/
+      - title: "Check Your Dev Hub Limits"
+        url: /sfdx-managed-packages/check-developer-hub-limits/
+      - title: "List Package Versions"
+        url: /sfdx-managed-packages/list-package-versions/
+        
+  - title: "Unit 3: Salesforce DX Project Fundamentals"
+    children: 
+      - title: "Unit Overview"
+        url: /sfdx-managed-packages/unit-3-overview/
+      - title: "Create a Salesforce DX Project"
+        url: /sfdx-managed-packages/create-salesforce-dx-project/
+      - title: "Open Your SFDX Project in VS Code"
+        url: /sfdx-managed-packages/open-sfdx-project-in-vs-code/
+      - title: "Create a Scratch Org Definition File"
+        url: /sfdx-managed-packages/create-scratch-org-definition-file/
+      - title: "Test Drive Your Scratch Org"
+        url: /sfdx-managed-packages/test-drive-your-scratch-org/
+
+  - title: "Unit 4: Prepare Your Managed Package"
+    children: 
+      - title: "Unit Overview"
+        url: /sfdx-managed-packages/unit-4-overview/
+      - title: "Use the CLI to Open Your Packaging Org"
+        url: /sfdx-managed-packages/use-cli-to-open-your-packaging-org/
+      - title: "Check Your Package Name and Namespace"
+        url: /sfdx-managed-packages/check-package-name-and-namespace/
+      - title: "Create Sample Metadata"
+        url: /sfdx-managed-packages/create-sample-metadata/
+      - title: "Configure and Upload Your Package"
+        url: /sfdx-managed-packages/configure-and-upload-your-package/
+
+  - title: "Unit 5: Convert Your Managed Package to SFDX"
+    children: 
+      - title: "Unit Overview"
+        url: /sfdx-managed-packages/unit-5-overview/
+      - title: "Retrieve Your Managed Package"
+        url: /sfdx-managed-packages/retrieve-managed-package/
+      - title: "Unpack the Retrieved Zip File"
+        url: /sfdx-managed-packages/unpack-retrieved-zip-file/
+      - title: "Convert MDAPI Source to SFDX Source"
+        url: /sfdx-managed-packages/convert-mdapi-source-to-sfdx-source/
+
+  - title: "Unit 6: Scratch Org Development"
+    children: 
+      - title: "Unit Overview"
+        url: /sfdx-managed-packages/unit-6-overview/
+      - title: "Push SFDX Source to Scratch Org"
+        url: /sfdx-managed-packages/push-sfdx-source-to-scratch-org/
+      - title: "Make and Pull Declarative Changes"
+        url: /sfdx-managed-packages/make-and-pull-declarative-changes/
+      - title: "Make and Push Changes from VS Code"
+        url: /sfdx-managed-packages/make-and-push-changes-from-vs-code/
+      - title: "Run Apex Tests"
+        url: /sfdx-managed-packages/run-apex-tests/
+
+  - title: "Unit 7: Update Your Managed Package"
+    children: 
+      - title: "Unit Overview"
+        url: /sfdx-managed-packages/unit-7-overview/
+      - title: "Convert SFDX Source to MDAPI Source"
+        url: /sfdx-managed-packages/convert-sfdx-source-to-mdapi-source/
+      - title: "Deploy to Your Packaging Org"
+        url: /sfdx-managed-packages/deploy-to-your-packaging-org/
+      - title: "Upload a Managed Beta Package Version"
+        url: /sfdx-managed-packages/upload-managed-beta-package-version/
+      - title: "Test the Installation of Your Package"
+        url: /sfdx-managed-packages/test-installation-of-your-package/
+
+  - title: "Closing"
+    children: 
+      - title: "Review What We Have Learned"
+        url: /sfdx-managed-packages/review-what-we-learned/
+      - title: "Ideas for Further Study"
+        url: /sfdx-managed-packages/ideas-for-further-study/
+      - title: "Prepare for the Next Workshop"
+        url: /sfdx-managed-packages/prepare-for-next-workshop/
+
+
+# LEFT NAV EXAMPLE
+workbook_EXAMPLE:
+  - title: Getting Started
+    children:
+      - title: "Quick-Start Guide"
+        url: /docs/quick-start-guide/
+      - title: "Structure"
+        url: /docs/structure/
+      - title: "Installation"
+        url: /docs/installation/
+      - title: "Upgrading"
+        url: /docs/upgrading/
+  - title: Customization
+    children:
+      - title: "Configuration"
+        url: /docs/configuration/
+      - title: "Overriding Theme Defaults"
+        url: /docs/overriding-theme-defaults/
+      - title: "Navigation"
+        url: /docs/navigation/
+      - title: "UI Text"
+        url: /docs/ui-text/
+      - title: "Authors"
+        url: /docs/authors/
+      - title: "Layouts"
+        url: /docs/layouts/
+  - title: Content
+    children:
+      - title: "Working with Posts"
+        url: /docs/posts/
+      - title: "Working with Pages"
+        url: /docs/pages/
+      - title: "Working with Collections"
+        url: /docs/collections/
+      - title: "Helpers"
+        url: /docs/helpers/
+      - title: "Utility Classes"
+        url: /docs/utility-classes/
+  - title: Extras
+    children:
+      - title: "Stylesheets"
+        url: /docs/stylesheets/
+      - title: "JavaScript"
+        url: /docs/javascript/
+  - title: Meta
+    children:
+      - title: "History"
+        url: /docs/history/
+      - title: "Contributing"
+        url: /docs/contributing/
+      - title: "Old 2.2 Docs"
+        url: /docs/docs-2-2/
+      - title: "License"
+        url: /docs/license/
+      - title: "Terms &amp; Privacy Policy"
+        url: /terms/
+  - title: "XXXXXXXXXX"
+    children: 
+      - title: "xxxxxxxxxx"
+        url: /sfdx-managed-packages/xxxxxxxxxx/
+      - title: "xxxxxxxxxx"
+        url: /sfdx-managed-packages/xxxxxxxxxx/
+      - title: "xxxxxxxxxx"
+        url: /sfdx-managed-packages/xxxxxxxxxx/
+      - title: "xxxxxxxxxx"
+        url: /sfdx-managed-packages/xxxxxxxxxx/
