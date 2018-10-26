@@ -69,8 +69,6 @@ workbook_1:
         url: /sfdx-managed-packages/unit-1-overview/
       - title: "Log in to Your Developer Hub"
         url: /sfdx-managed-packages/log-in-to-your-developer-hub/
-      - title: "Create an \"SFDX Developer\" Profile"
-        url: /sfdx-managed-packages/create-sfdx-developer-profile/
       - title: "Register Your Packaging Org's Namespace"
         url: /sfdx-managed-packages/register-packaging-org-namespace/
 

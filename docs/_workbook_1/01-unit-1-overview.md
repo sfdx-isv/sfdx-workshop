@@ -15,8 +15,5 @@ Short paragraph of what will be covered by this unit.  Try to keep this to no mo
 ### Log in to your Developer Hub
 Short paragraph (not more than two or three sentences) explaining why this part of the exercise will be helpful.  This should be the same copyt that's used as the intro paragraph for this section.
 
-### Create an "SFDX Developer" profile
-Short paragraph (not more than two or three sentences) explaining why this part of the exercise will be helpful.  This should be the same copyt that's used as the intro paragraph for this section.
-
 ### Register your packaging org's namespace
 Short paragraph (not more than two or three sentences) explaining why this part of the exercise will be helpful.  This should be the same copyt that's used as the intro paragraph for this section.
