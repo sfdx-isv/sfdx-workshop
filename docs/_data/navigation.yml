@@ -84,8 +84,6 @@ workbook_1:
         url: /sfdx-managed-packages/connect-cli-to-packaging-org/
       - title: "Check Your Dev Hub Limits"
         url: /sfdx-managed-packages/check-developer-hub-limits/
-      - title: "List Package Versions"
-        url: /sfdx-managed-packages/list-package-versions/
         
   - title: "Unit 3: Salesforce DX Project Fundamentals"
     children: 
@@ -145,6 +143,8 @@ workbook_1:
         url: /sfdx-managed-packages/convert-sfdx-source-to-mdapi-source/
       - title: "Deploy to Your Packaging Org"
         url: /sfdx-managed-packages/deploy-to-your-packaging-org/
+      - title: "List Package Versions"
+        url: /sfdx-managed-packages/list-package-versions/
       - title: "Upload a Managed Beta Package Version"
         url: /sfdx-managed-packages/upload-managed-beta-package-version/
       - title: "Test the Installation of Your Package"
