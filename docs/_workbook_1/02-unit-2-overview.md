@@ -20,6 +20,3 @@ Short paragraph (not more than two or three sentences) explaining why this part 
 
 ### Check Your Dev Hub Limits
 Short paragraph (not more than two or three sentences) explaining why this part of the exercise will be helpful.  This should be the same copyt that's used as the intro paragraph for this section.
-
-### List Package Versions
-Short paragraph (not more than two or three sentences) explaining why this part of the exercise will be helpful.  This should be the same copyt that's used as the intro paragraph for this section.
