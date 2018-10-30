@@ -16,7 +16,7 @@ Short paragraph of what will be covered on this page.  Try to keep this to no mo
 ## We Will Cover This (First Thing)
 One or two sentences that give a simple overview of what the student is being asked to do.
 
-**Execute This Command:**
+**Execute this command:**
 ```bash
 sfdx force:source:convert \
     --rootdir     ./sfdx-source/package-dir \

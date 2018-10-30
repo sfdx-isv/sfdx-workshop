@@ -91,23 +91,27 @@ workbook_1:
         url: /sfdx-managed-packages/create-salesforce-dx-project/
       - title: "Open Your SFDX Project in VS Code"
         url: /sfdx-managed-packages/open-sfdx-project-in-vs-code/
-      - title: "Create a Scratch Org Definition File"
-        url: /sfdx-managed-packages/create-scratch-org-definition-file/
+      - title: "Customize the Scratch Org Definition File"
+        url: /sfdx-managed-packages/customize-scratch-org-definition-file/
+      - title: "Open the VS Code Integrated Terminal"
+        url: /sfdx-managed-packages/open-vs-code-integrated-terminal/
       - title: "Test Drive Your Scratch Org"
         url: /sfdx-managed-packages/test-drive-your-scratch-org/
+      - title: "Delete Your Scratch Org"
+        url: /sfdx-managed-packages/delete-your-scratch-org/
 
   - title: "Unit 4: Prepare Your Managed Package"
     children: 
       - title: "Unit Overview"
         url: /sfdx-managed-packages/unit-4-overview/
-      - title: "Use the CLI to Open Your Packaging Org"
+      - title: "Open Your Packaging Org"
         url: /sfdx-managed-packages/use-cli-to-open-your-packaging-org/
-      - title: "Check Your Package Name and Namespace"
-        url: /sfdx-managed-packages/check-package-name-and-namespace/
-      - title: "Create Sample Metadata"
+      - title: "Create Metadata for Your Package"
         url: /sfdx-managed-packages/create-sample-metadata/
-      - title: "Configure and Upload Your Package"
-        url: /sfdx-managed-packages/configure-and-upload-your-package/
+      - title: "Add Components to Your Package"
+        url: /sfdx-managed-packages/add-metadata-components-to-your-package/
+      - title: "Upload Your Managed Package"
+        url: /sfdx-managed-packages/upload-your-package/
 
   - title: "Unit 5: Convert Your Managed Package to SFDX"
     children: 
@@ -117,31 +121,41 @@ workbook_1:
         url: /sfdx-managed-packages/retrieve-managed-package/
       - title: "Unpack the Retrieved Zip File"
         url: /sfdx-managed-packages/unpack-retrieved-zip-file/
+      - title: "Examine Retrieved MDAPI Source"
+        url: /sfdx-managed-packages/examine-retrieved-mdapi-source/
       - title: "Convert MDAPI Source to SFDX Source"
         url: /sfdx-managed-packages/convert-mdapi-source-to-sfdx-source/
+      - title: "Examine Converted SFDX Source"
+        url: /sfdx-managed-packages/examine-converted-sfdx-source/
 
   - title: "Unit 6: Scratch Org Development"
     children: 
       - title: "Unit Overview"
         url: /sfdx-managed-packages/unit-6-overview/
-      - title: "Push SFDX Source to Scratch Org"
+      - title: "Create a Namespaced Scratch Org"
+        url: /sfdx-managed-packages/create-a-namespaced-scratch-org/
+      - title: "Push SFDX Source to Namespaced Scratch Org"
         url: /sfdx-managed-packages/push-sfdx-source-to-scratch-org/
-      - title: "Make and Pull Declarative Changes"
-        url: /sfdx-managed-packages/make-and-pull-declarative-changes/
-      - title: "Make and Push Changes from VS Code"
-        url: /sfdx-managed-packages/make-and-push-changes-from-vs-code/
-      - title: "Run Apex Tests"
-        url: /sfdx-managed-packages/run-apex-tests/
+      - title: "Make Declarative Changes in Your Scratch Org"
+        url: /sfdx-managed-packages/make-declarative-changes-in-scratch-org/
+      - title: "Create a Permission Set for Your App"
+        url: /sfdx-managed-packages/create-permission-set-for-your-app/
+      - title: "Verify That Your App Works"
+        url: /sfdx-managed-packages/verify-that-your-app-works/
+      - title: "Pull Declarative Changes From Your Scratch Org"
+        url: /sfdx-managed-packages/pull-changes-from-scratch-org/
 
   - title: "Unit 7: Update Your Managed Package"
     children: 
       - title: "Unit Overview"
         url: /sfdx-managed-packages/unit-7-overview/
+      - title: "Prepare Your SFDX Source for Conversion"
+        url: /sfdx-managed-packages/prepare-sfdx-source-for-conversion/
       - title: "Convert SFDX Source to MDAPI Source"
         url: /sfdx-managed-packages/convert-sfdx-source-to-mdapi-source/
       - title: "Deploy to Your Packaging Org"
         url: /sfdx-managed-packages/deploy-to-your-packaging-org/
-      - title: "List Package Versions"
+      - title: "Use the CLI to List Package Versions"
         url: /sfdx-managed-packages/list-package-versions/
       - title: "Upload a Managed Beta Package Version"
         url: /sfdx-managed-packages/upload-managed-beta-package-version/

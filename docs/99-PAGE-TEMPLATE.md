@@ -13,10 +13,10 @@ Short paragraph of what will be covered on this page.  Try to keep this to no mo
 * And we will cover that
 * And by the end we'll get to this, too
 
-## We Will Cover This (First Thing)
+## We will cover this
 One or two sentences that give a simple overview of what the student is being asked to do.
 
-**Execute This Command:**
+**Execute this command:**
 ```bash
 sfdx force:source:convert \
     --rootdir     ./sfdx-source/package-dir \
@@ -33,18 +33,18 @@ sfdx force:source:convert \
 | `--packagename (-p)`            | Description TBA                                         |
 
 
-**Your Screen Should Look Like This**
-{% include figure image_path="/assets/images/w1.01.1-01-sfdx-force-org-list.png" alt="Example of output from force:org:list" caption="The force:org:list command shows you all of the orgs that your CLI has authenticated to, as well as the current status of each connected org." %}
+**After executing the above, your terminal should look something like this:**
+{% include figure image_path="/assets/images/w1.01.1-01-sfdx-force-org-list.png" alt="Alt TBA" caption="Caption TBA" %}
 
-## And we will cover that (Second Thing)
+## And we will cover that
 One or two sentence introduction. Then, explain that the student needs to do the following.
 
 1. Something about callout number one
 2. Something about callout number two
 3. Something about callout number three
 
-{% include figure image_path="/assets/images/w1.01.1-02-adk_docs_copy-git-remote-uri.png" alt="Copy your GitHub remote URI" caption="When setting up a new repository, make sure to pay close attention to the following features." %}
+{% include figure image_path="/assets/images/w1.01.1-02-adk_docs_copy-git-remote-uri.png" alt="Alt TBA" caption="Caption TBA" %}
 
 
-## And by the end we'll get to this, too (Third Thing)
+## And by the end we'll get to this, too
 Content TBA
