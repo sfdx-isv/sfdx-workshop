@@ -7,44 +7,28 @@ toc: false
 classes: wide
 ---
 
-Short paragraph of what will be covered on this page.  Try to keep this to no more than two or three sentences. Close things out with a sentence that leads into the unordered list that follows.
+Short paragraph of what will be covered by this unit.  Try to keep this to no more than two or three sentences. Close things out with a sentence that leads into the unordered list that follows.
 
-* We will cover this
-* And we will cover that
-* And by the end we'll get to this, too
+**Time Check:** This workbook has a total of Seven Units and and should take XX minutes to complete.
+{: .notice--warning}
 
-## We Will Cover This (First Thing)
-One or two sentences that give a simple overview of what the student is being asked to do.
+### UNIT 1: Developer Hub Fundamentals
+Short paragraph (not more than two or three sentences) explaining why this part of the exercise will be helpful.  This should be the same copyt that's used as the intro paragraph for this section.
 
-**Execute this command:**
-```bash
-sfdx force:source:convert \
-    --rootdir     ./sfdx-source/package-dir \
-    --outputdir   ./mdapi-source/mdapi-dir \
-    --packagename "My Package Name" \
-    --loglevel    error
-```
+### UNIT 2: Salesforce CLI Fundamentals
+Short paragraph (not more than two or three sentences) explaining why this part of the exercise will be helpful.  This should be the same copyt that's used as the intro paragraph for this section.
 
-| Salesforce DX Command / Flags   | Description                                             |
-| --------------------------------| --------------------------------------------------------|
-| `force:source:convert`          | Description TBA                                         |
-| `--rootdir (-r)`                | Description TBA                                         |
-| `--outputdir (-o)`              | Description TBA                                         |
-| `--packagename (-p)`            | Description TBA                                         |
+### UNIT 3: Salesforce DX Project Fundamentals
+Short paragraph (not more than two or three sentences) explaining why this part of the exercise will be helpful.  This should be the same copyt that's used as the intro paragraph for this section.
 
+### UNIT 4: Prepare Your Managed Package for Development
+Short paragraph (not more than two or three sentences) explaining why this part of the exercise will be helpful.  This should be the same copyt that's used as the intro paragraph for this section.
 
-**Your Screen Should Look Like This**
-{% include figure image_path="/assets/images/w1.01.1-01-sfdx-force-org-list.png" alt="Example of output from force:org:list" caption="The force:org:list command shows you all of the orgs that your CLI has authenticated to, as well as the current status of each connected org." %}
+### UNIT 5: Convert Your Managed Package to Salesforce DX
+Short paragraph (not more than two or three sentences) explaining why this part of the exercise will be helpful.  This should be the same copyt that's used as the intro paragraph for this section.
 
-## And we will cover that (Second Thing)
-One or two sentence introduction. Then, explain that the student needs to do the following.
+### UNIT 6: Develop Your Managed Package in a Scratch Org
+Short paragraph (not more than two or three sentences) explaining why this part of the exercise will be helpful.  This should be the same copyt that's used as the intro paragraph for this section.
 
-1. Something about callout number one
-2. Something about callout number two
-3. Something about callout number three
-
-{% include figure image_path="/assets/images/w1.01.1-02-adk_docs_copy-git-remote-uri.png" alt="Copy your GitHub remote URI" caption="When setting up a new repository, make sure to pay close attention to the following features." %}
-
-
-## And by the end we'll get to this, too (Third Thing)
-Content TBA
+### UNIT 7: Update, Upload, and Install Your Managed Package
+Short paragraph (not more than two or three sentences) explaining why this part of the exercise will be helpful.  This should be the same copyt that's used as the intro paragraph for this section.

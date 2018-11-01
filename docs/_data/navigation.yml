@@ -63,7 +63,7 @@ workbook_1:
       - title: "How to Use This Workbook"
         url: /sfdx-managed-packages/how-to-use-this-workbook/
 
-  - title: "Unit 1: Prepare Your Developer Hub"
+  - title: "Unit 1: Developer Hub Fundamentals"
     children:
       - title: "Unit Overview"
         url: /sfdx-managed-packages/unit-1-overview/
@@ -100,7 +100,7 @@ workbook_1:
       - title: "Delete Your Scratch Org"
         url: /sfdx-managed-packages/delete-your-scratch-org/
 
-  - title: "Unit 4: Prepare Your Managed Package"
+  - title: "Unit 4: Prepare Your Managed Package for Development"
     children: 
       - title: "Unit Overview"
         url: /sfdx-managed-packages/unit-4-overview/
@@ -113,7 +113,7 @@ workbook_1:
       - title: "Upload Your Managed Package"
         url: /sfdx-managed-packages/upload-your-package/
 
-  - title: "Unit 5: Convert Your Managed Package to SFDX"
+  - title: "Unit 5: Convert Your Managed Package to Salesforce DX"
     children: 
       - title: "Unit Overview"
         url: /sfdx-managed-packages/unit-5-overview/
@@ -128,7 +128,7 @@ workbook_1:
       - title: "Examine Converted SFDX Source"
         url: /sfdx-managed-packages/examine-converted-sfdx-source/
 
-  - title: "Unit 6: Scratch Org Development"
+  - title: "Unit 6: Develop Your Managed Package in a Scratch Org"
     children: 
       - title: "Unit Overview"
         url: /sfdx-managed-packages/unit-6-overview/
@@ -145,7 +145,7 @@ workbook_1:
       - title: "Pull Declarative Changes From Your Scratch Org"
         url: /sfdx-managed-packages/pull-changes-from-scratch-org/
 
-  - title: "Unit 7: Update Your Managed Package"
+  - title: "Unit 7: Update, Upload, and Install Your Managed Package"
     children: 
       - title: "Unit Overview"
         url: /sfdx-managed-packages/unit-7-overview/
@@ -155,9 +155,7 @@ workbook_1:
         url: /sfdx-managed-packages/convert-sfdx-source-to-mdapi-source/
       - title: "Deploy to Your Packaging Org"
         url: /sfdx-managed-packages/deploy-to-your-packaging-org/
-      - title: "Use the CLI to List Package Versions"
-        url: /sfdx-managed-packages/list-package-versions/
-      - title: "Upload a Managed Beta Package Version"
+      - title: "Use the CLI to Upload a \"Managed Beta\" Version of Your Package"
         url: /sfdx-managed-packages/upload-managed-beta-package-version/
       - title: "Test the Installation of Your Package"
         url: /sfdx-managed-packages/test-installation-of-your-package/

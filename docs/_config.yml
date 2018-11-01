@@ -18,8 +18,8 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 locale                   : "en-US"
 title                    : "SFDX Workshop"
 title_separator          : "-"
-name                     : "Your Name"
-description              : "An amazing website."
+name                     : "Salesforce ISV Technical Enablement"
+description              : "Salesforce DX for ISVs Workshop - Created by Vivek M. Chawla"
 url                      : "https://sfdx-isv.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "/sfdx-workshop"             # the subpath of your site, e.g. "/blog"
 repository               : "sfdx-isv/sfdx-workshop"     # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -103,8 +103,8 @@ analytics:
 author:
   name             : "Vivek M. Chawla"
   avatar           : "/assets/images/VMC-500x500.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "This is the author bio"
-  location         : "San Francisco, CA"
+  bio              : "Salesforce ISV Technical Evangelist"
+  location         : "Carlsbad, CA"
   email            :
   links:
     - label: "Email"
