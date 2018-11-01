@@ -19,18 +19,17 @@ One or two sentences that give a simple overview of what the student is being as
 **Execute this command:**
 ```bash
 sfdx force:source:convert \
-    --rootdir     ./sfdx-source/package-dir \
-    --outputdir   ./mdapi-source/mdapi-dir \
-    --packagename "My Package Name" \
-    --loglevel    error
+    -r ./sfdx-source/package-dir \
+    -o ./mdapi-source/mdapi-dir \
+    -p "My Package Name"
 ```
 
 | Salesforce DX Command / Flags   | Description                                             |
 | --------------------------------| --------------------------------------------------------|
 | `force:source:convert`          | Description TBA                                         |
-| `--rootdir (-r)`                | Description TBA                                         |
-| `--outputdir (-o)`              | Description TBA                                         |
-| `--packagename (-p)`            | Description TBA                                         |
+| `-r (--rootdir)`                | Description TBA                                         |
+| `-o (--outputdir)`              | Description TBA                                         |
+| `-p (--packagename)`            | Description TBA                                         |
 
 
 **After executing the above, your terminal should look something like this:**
