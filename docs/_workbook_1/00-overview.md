@@ -1,34 +1,32 @@
 ---
 title: "Building Managed Packages with Salesforce DX"
-permalink: /sfdx-managed-packages/overview/
+permalink: /
 excerpt: "Excerpt TBA"
-last_modified_at: 2018-10-21
+last_modified_at: 2018-11-01
 toc: false
 classes: wide
 ---
 
-Short paragraph of what will be covered by this unit.  Try to keep this to no more than two or three sentences. Close things out with a sentence that leads into the unordered list that follows.
-
-**Time Check:** This workbook has a total of Seven Units and and should take XX minutes to complete.
+**Time Check:** This workbook has a total of Seven Units and and should take approximately 90 minutes to complete.
 {: .notice--warning}
 
-### UNIT 1: Developer Hub Fundamentals
-Short paragraph (not more than two or three sentences) explaining why this part of the exercise will be helpful.  This should be the same copyt that's used as the intro paragraph for this section.
+### UNIT 1: Developer Hub Fundamentals (~5 minutes)
+This unit will ensure that you have access to a Dev Hub and walk you through the process of linking a packaging org to your Dev Hub.
 
-### UNIT 2: Salesforce CLI Fundamentals
-Short paragraph (not more than two or three sentences) explaining why this part of the exercise will be helpful.  This should be the same copyt that's used as the intro paragraph for this section.
+### UNIT 2: Salesforce CLI Fundamentals (~10 minutes)
+This unit will walk you through the basics of running commands with the Salesforce CLI.  You'll connect your CLI to your Developer Hub org and your Packaging Org. You'll also run some basic commands that will help you learn about some of the limits associated with Salesforce DX.
 
-### UNIT 3: Salesforce DX Project Fundamentals
-Short paragraph (not more than two or three sentences) explaining why this part of the exercise will be helpful.  This should be the same copyt that's used as the intro paragraph for this section.
+### UNIT 3: Salesforce DX Project Fundamentals (~15 minutes)
+This unit will walk you through the process of creating a Salesforce DX project and opening that project in Visual Studio Code.  The unit closes with the creation (and destruction!) of your first scratch org.
 
-### UNIT 4: Prepare Your Managed Package for Development
-Short paragraph (not more than two or three sentences) explaining why this part of the exercise will be helpful.  This should be the same copyt that's used as the intro paragraph for this section.
+### UNIT 4: Prepare Your Managed Package for Development (~10 minutes)
+This unit will walk you through the process of logging into your Packaging Org with the CLI and creating a very simple managed package. You'll then be able to use this managed package with the units and exercises that come later in this workbook.
 
-### UNIT 5: Convert Your Managed Package to Salesforce DX
-Short paragraph (not more than two or three sentences) explaining why this part of the exercise will be helpful.  This should be the same copyt that's used as the intro paragraph for this section.
+### UNIT 5: Convert Your Managed Package to Salesforce DX (~10 minutes)
+This unit will walk you through the process of retrieving your package's metadata from your packaging org, unpacking the retrieved code, and then converting it into the Salesforce DX Source format.
 
-### UNIT 6: Develop Your Managed Package in a Scratch Org
-Short paragraph (not more than two or three sentences) explaining why this part of the exercise will be helpful.  This should be the same copyt that's used as the intro paragraph for this section.
+### UNIT 6: Develop Your Managed Package in a Scratch Org (~15 minutes)
+This unit will walk you through the typical Salesforce DX development lifecycle.  In it you'll create a scratch org, push SFDX source to it, make declarative changes to your app, then pull those changes back into your local project files.
 
-### UNIT 7: Update, Upload, and Install Your Managed Package
-Short paragraph (not more than two or three sentences) explaining why this part of the exercise will be helpful.  This should be the same copyt that's used as the intro paragraph for this section.
+### UNIT 7: Update, Upload, and Install Your Managed Package (~20 minutes)
+In this final unit, you'll learn how an ISV Partner can use Salesforce DX to "close the circle" by getting your updated code back into your packaging org, and even uploading it as a new managed package version.

@@ -1,11 +1,11 @@
 # main links
 main:
-  - title: "Prerequisites"
-    url: /prerequisites/overview/
+  #- title: "Prerequisites"
+  #  url: /prerequisites/overview/
   - title: "Managed Packages with SFDX"
-    url: /sfdx-managed-packages/overview/
-  - title: "Team Development with SFDX"
-    url: /sfdx-team-development/overview/
+    url: /
+  #- title: "Team Development with SFDX"
+  #  url: /sfdx-team-development/overview/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
@@ -57,17 +57,17 @@ workbook_1:
   - title: "Managed Packages with SFDX"
     children: 
       - title: "Workbook Overview"
-        url: /sfdx-managed-packages/overview/
-      - title: "Prerequisites Check"
-        url: /sfdx-managed-packages/prerequisites-check/
-      - title: "How to Use This Workbook"
-        url: /sfdx-managed-packages/how-to-use-this-workbook/
+        url: /
+      #- title: "Prerequisites Check"
+      #  url: /sfdx-managed-packages/prerequisites-check/
+      #- title: "How to Use This Workbook"
+      #  url: /sfdx-managed-packages/how-to-use-this-workbook/
 
   - title: "Unit 1: Developer Hub Fundamentals"
     children:
       - title: "Unit Overview"
         url: /sfdx-managed-packages/unit-1-overview/
-      - title: "Log in to Your Developer Hub"
+      - title: "Make Sure the Developer Hub is Enabled in Your PBO"
         url: /sfdx-managed-packages/log-in-to-your-developer-hub/
       - title: "Register Your Packaging Org's Namespace"
         url: /sfdx-managed-packages/register-packaging-org-namespace/

@@ -7,11 +7,14 @@ toc: false
 classes: wide
 ---
 
-Short paragraph of what will be covered by this unit.  Try to keep this to no more than two or three sentences. Close things out with a sentence that leads into the unordered list that follows.
+Many of the tools in the Salesforce DX toolkit are project-centric, and the work that you'll be doing requires more than just the Salesforce CLI.  
 
-**Time Check:** This unit includes the following steps and should take XX minutes to complete.
+This unit will walk you through the process of creating a Salesforce DX project and opening that project in Visual Studio Code.  The unit closes with the creation (and destruction!) of your first scratch org.
+
+**Time Check:** This unit should take approximately 15 minutes to complete.
 {: .notice--warning}
 
+<!--
 ### Create a Salesforce DX Project
 Short paragraph (not more than two or three sentences) explaining why this part of the exercise will be helpful.  This should be the same copyt that's used as the intro paragraph for this section.
 
@@ -23,3 +26,4 @@ Short paragraph (not more than two or three sentences) explaining why this part 
 
 ### Test Drive Your Scratch Org
 Short paragraph (not more than two or three sentences) explaining why this part of the exercise will be helpful.  This should be the same copyt that's used as the intro paragraph for this section.
+-->
