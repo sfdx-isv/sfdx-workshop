@@ -33,7 +33,7 @@ sfdx force:source:convert \
 
 
 **After executing the above, your terminal should look something like this:**
-{% include figure image_path="/assets/images/w1.01.1-01-sfdx-force-org-list.png" alt="Alt TBA" caption="Caption TBA" %}
+{% include figure image_path="/assets/images/w1.01.1-01-sfdx-force-org-list.png" alt="" caption="" %}
 
 ## And we will cover that
 One or two sentence introduction. Then, explain that the student needs to do the following.
@@ -42,7 +42,7 @@ One or two sentence introduction. Then, explain that the student needs to do the
 2. Something about callout number two
 3. Something about callout number three
 
-{% include figure image_path="/assets/images/w1.01.1-02-adk_docs_copy-git-remote-uri.png" alt="Alt TBA" caption="Caption TBA" %}
+{% include figure image_path="/assets/images/w1.01.1-02-adk_docs_copy-git-remote-uri.png" alt="" caption="" %}
 
 
 ## And by the end we'll get to this, too

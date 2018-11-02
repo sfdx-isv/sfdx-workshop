@@ -7,11 +7,15 @@ toc: false
 classes: wide
 ---
 
-Short paragraph of what will be covered by this unit.  Try to keep this to no more than two or three sentences. Close things out with a sentence that leads into the unordered list that follows.
+Now that your packaged code has been retrieved from your packaging org and converted from MDAPI to SFDX source, it's finally time to use a Scratch Org to develop some useful new features for your app.
 
-**Time Check:** This unit includes the following steps and should take XX minutes to complete.
+This unit will walk you through the typical Salesforce DX development lifecycle.  In it you'll create a scratch org, push SFDX source to it, make declarative changes to your app, then pull those changes back into your local project files.
+
+**Time Check:** This unit should take approximately 15 minutes to complete.
 {: .notice--warning}
 
+
+<!--
 ### Create a Namespaced Scratch Org
 Short paragraph (not more than two or three sentences) explaining why this part of the exercise will be helpful.  This should be the same copyt that's used as the intro paragraph for this section.
 
@@ -29,3 +33,4 @@ Short paragraph (not more than two or three sentences) explaining why this part 
 
 ### Pull Your Changes From Your Scratch Org
 Short paragraph (not more than two or three sentences) explaining why this part of the exercise will be helpful.  This should be the same copyt that's used as the intro paragraph for this section.
+-->

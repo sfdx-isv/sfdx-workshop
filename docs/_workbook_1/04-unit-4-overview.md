@@ -7,6 +7,14 @@ toc: false
 classes: wide
 ---
 
+To help experience Salesforce DX from the point-of-view of an ISV Partner, you'll need to work with a managed package.
+
+This unit will walk you through the process of logging into your Packaging Org with the CLI and creating a very simple managed package. You'll then be able to use this managed package with the units and exercises that come later in this workbook.
+
+**Time Check:** This unit should take approximately 10 minutes to complete.
+{: .notice--warning}
+
+<!--
 ### Use the CLI to Open Your Packaging Org
 Short paragraph (not more than two or three sentences) explaining why this part of the exercise will be helpful.  This should be the same copyt that's used as the intro paragraph for this section.
 
@@ -18,3 +26,4 @@ Short paragraph (not more than two or three sentences) explaining why this part 
 
 ### Configure and Upload Your Package
 Short paragraph (not more than two or three sentences) explaining why this part of the exercise will be helpful.  This should be the same copyt that's used as the intro paragraph for this section.
+-->
