@@ -4,8 +4,8 @@ main:
   #  url: /prerequisites/overview/
   - title: "Managed Packages with SFDX"
     url: /
-  #- title: "Team Development with SFDX"
-  #  url: /sfdx-team-development/overview/
+  - title: "Team Development with SFDX"
+    url: /sfdx-team-development/overview/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
@@ -169,6 +169,60 @@ workbook_1:
       - title: "Prepare for the Next Workshop"
         url: /sfdx-managed-packages/prepare-for-next-workshop/
 
+
+# Workbook 2 (Team Development with SFDX)
+workbook_2:
+  - title: "Team Development with SFDX"
+    children: 
+      - title: "Workbook Overview"
+        url: /sfdx-team-development/overview/
+      #- title: "Prerequisites Check"
+      #  url: /sfdx-managed-packages/prerequisites-check/
+      #- title: "How to Use This Workbook"
+      #  url: /sfdx-managed-packages/how-to-use-this-workbook/
+
+  - title: "Unit 1: Connect to Team Resources"
+    children:
+      - title: "Unit Overview"
+        url: /sfdx-team-development/unit-1-overview/
+      - title: "Connect your CLI to the Team Dev Hub"
+        url: /sfdx-team-development/connect-cli-to-team-dev-hub/
+      - title: "Clone the Team Repository"
+        url: /sfdx-team-development/clone-team-repository/
+
+  - title: "Unit 2: Develop a New Feature"
+    children:
+      - title: "Unit Overview"
+        url: /sfdx-team-development/unit-2-overview/
+      - title: "Create a Branch for Your Feature"
+        url: /sfdx-team-development/create-feature-branch/
+      - title: "Use the dev-tools to Build a Scratch Org"
+        url: /sfdx-team-development/use-dev-tools-to-build-scratch-org/
+      - title: "Build Your Feature"
+        url: /sfdx-team-development/build-your-feature/
+
+  - title: "Unit 3: Move Changes to GitHub"
+    children:
+      - title: "Unit Overview"
+        url: /sfdx-team-development/unit-3-overview/
+      - title: "Run Apex Tests"
+        url: /sfdx-team-development/run-apex-tests/
+      - title: "Git Add, Git Commit, and Git Push"
+        url: /sfdx-team-development/git-add-commit-push/
+
+  - title: "Unit 4: Getting Your Feature Into Master"
+    children:
+      - title: "Unit Overview"
+        url: /sfdx-team-development/unit-4-overview/
+      - title: "Make Sure Your Commit has a Passing Build"
+        url: /sfdx-team-development/make-sure-commit-passes-build/
+      - title: "Open a Pull Request"
+        url: /sfdx-team-development/open-a-pull-request/
+
+  - title: "Unit 5: Continuous Integration"
+    children:
+      - title: "Unit Overview"
+        url: /sfdx-team-development/unit-5-overview/
 
 # LEFT NAV EXAMPLE
 workbook_EXAMPLE:
