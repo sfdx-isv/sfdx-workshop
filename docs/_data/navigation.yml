@@ -214,8 +214,8 @@ workbook_2:
     children:
       - title: "Unit Overview"
         url: /sfdx-team-development/unit-4-overview/
-      - title: "Make Sure Your Commit has a Passing Build"
-        url: /sfdx-team-development/make-sure-commit-passes-build/
+      - title: "Review Your Pushed Commit at GitHub"
+        url: /sfdx-team-development/review-pushed-commit/
       - title: "Open a Pull Request"
         url: /sfdx-team-development/open-a-pull-request/
 
