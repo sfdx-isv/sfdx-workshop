@@ -8,7 +8,17 @@ classes: wide
 ---
 
 **Time Check:** This workbook has a total of Seven Units and and should take approximately 90 minutes to complete.
-{: .notice--warning}
+{: .notice--success}
+
+<!-- Put this wherever you would like your player to appear -->
+<img
+  style="width: 100%; margin: auto; display: block;"
+  class="vidyard-player-embed"
+  src="https://play.vidyard.com/cxUmoDPu8LoHHHKM2YnsA8.jpg"
+  data-uuid="cxUmoDPu8LoHHHKM2YnsA8"
+  data-v="4"
+  data-type="inline"
+/>
 
 ### UNIT 1: Developer Hub Fundamentals (~5 minutes)
 This unit will ensure that you have access to a Dev Hub and walk you through the process of linking a packaging org to your Dev Hub.
