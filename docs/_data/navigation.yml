@@ -2,7 +2,7 @@
 main:
   #- title: "Prerequisites"
   #  url: /prerequisites/overview/
-  - title: "Managed Packages with SFDX"
+  - title: "Building Managed Packages with SFDX"
     url: /
   - title: "Team Development with SFDX"
     url: /sfdx-team-development/overview/
@@ -54,7 +54,7 @@ workbook_0:
 
 # Workbook 1 (Managed Packages with SFDX)
 workbook_1:
-  - title: "Managed Packages with SFDX"
+  - title: "Building Managed Packages with Salesforce DX"
     children: 
       - title: "Workbook Overview"
         url: /
