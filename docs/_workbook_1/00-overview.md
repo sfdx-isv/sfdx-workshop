@@ -2,12 +2,12 @@
 title: "Building Managed Packages with Salesforce DX"
 permalink: /
 excerpt: "Excerpt TBA"
-last_modified_at: 2018-11-01
+last_modified_at: 2018-11-13
 toc: false
 classes: wide
 ---
 
-**Time Check:** This workbook has a total of Seven Units and and should take approximately 90 minutes to complete.
+**Time Check:** This workbook has a total of Seven Units and and should take approximately 95 minutes to complete.
 {: .notice--success}
 
 <!-- Put this wherever you would like your player to appear -->
@@ -20,7 +20,7 @@ classes: wide
   data-type="inline"
 />
 
-### UNIT 1: Developer Hub Fundamentals (~5 minutes)
+### UNIT 1: Developer Hub Fundamentals (~10 minutes)
 This unit will ensure that you have access to a Dev Hub and walk you through the process of linking a packaging org to your Dev Hub.
 
 ### UNIT 2: Salesforce CLI Fundamentals (~10 minutes)
