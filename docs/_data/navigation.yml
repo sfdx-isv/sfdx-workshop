@@ -1,55 +1,22 @@
 # main links
 main:
-  #- title: "Prerequisites"
-  #  url: /prerequisites/overview/
+  - title: "Prerequisites"
+    url: /prerequisites/overview/
   - title: "Building Managed Packages with SFDX"
     url: /
   - title: "Team Development with SFDX"
     url: /sfdx-team-development/overview/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
-
 
 # Workbook 0 (Prerequisites)
 workbook_0:
   - title: "Workshop Prerequisites"
     children: 
-      - title: "Overview"
+      - title: "Prerequisites Overview"
         url: /prerequisites/overview/
-  - title: "Setup Tools"
-    children: 
-      - title: "Install the Salesforce CLI"
-        url: /prerequisites/install-the-salesforce-cli/
-      - title: "Install Git"
-        url: /prerequisites/xxxxx
-      - title: "Install Visual Studio Code"
-        url: /prerequisites/xxxxx
-      - title: "Install the Salesforce Extensions for VS Code"
-        url: /prerequisites/xxxxx
-  - title: "Setup Environments"
-    children: 
-      - title: "Enable Developer Hub in Your PBO"
-        url: /prerequisites/xxxxx
-      - title: "Create Simple Managed Package"
-        url: /prerequisites/xxxxx
-      - title: "Link Your Package Namespace to Your Dev Hub"
-        url: /prerequisites/xxxxx
-      - title: "Connect the CLI to Your Dev Hub"
-        url: /prerequisites/xxxxx
-      - title: "Connect the CLI to Your Packaging Org"
-        url: /prerequisites/xxxxx
-  - title: "Complete Pre-Workshop, Self-Directed Study Requirements"
-    children: 
-      - title: "xxxxxxx"
-        url: /prerequisites/xxxxx
-      - title: "xxxxxxx"
-        url: /prerequisites/xxxxx
-      - title: "xxxxxxx"
-        url: /prerequisites/xxxxx
-      - title: "xxxxxxx"
-        url: /prerequisites/xxxxx
+      - title: "Prerequisites for Workshop One: Building Managed Packages with SFDX"
+        url: /prerequisites/workshop-one/
+      - title: "Prerequisites for Workshop Two: Team Development with SFDX"
+        url: /prerequisites/workshop-two/
 
 
 # Workbook 1 (Managed Packages with SFDX)
