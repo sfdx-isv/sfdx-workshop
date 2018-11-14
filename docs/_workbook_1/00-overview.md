@@ -7,7 +7,7 @@ toc: false
 classes: wide
 ---
 
-**Time Check:** This workbook has a total of Seven Units and and should take approximately 95 minutes to complete.
+**Time Check:** This workbook has a total of Seven Units and and should take approx. 105 minutes (1h 45m) to complete.
 {: .notice--success}
 
 <!-- Put this wherever you would like your player to appear -->
