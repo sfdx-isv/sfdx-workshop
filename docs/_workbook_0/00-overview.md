@@ -2,7 +2,7 @@
 title: "Workshop Prerequisites"
 permalink: /prerequisites/overview/
 excerpt: "Overview of Workshop Prerequisites"
-last_modified_at: 2018-11-14
+last_modified_at: 2019-05-29
 toc: false
 classes: wide
 ---
