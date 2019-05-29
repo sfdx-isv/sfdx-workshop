@@ -2,7 +2,7 @@
 title: "Building Managed Packages with Salesforce DX"
 permalink: /
 excerpt: "Excerpt TBA"
-last_modified_at: 2018-11-13
+last_modified_at: 2019-05-29
 toc: false
 classes: wide
 ---

@@ -2,7 +2,7 @@
 title: "Unit 2: Salesforce CLI Fundamentals"
 permalink: /sfdx-managed-packages/unit-2-overview/
 excerpt: "Excerpt TBA"
-last_modified_at: 2018-11-14
+last_modified_at: 2019-05-29
 toc: false
 classes: wide
 ---
