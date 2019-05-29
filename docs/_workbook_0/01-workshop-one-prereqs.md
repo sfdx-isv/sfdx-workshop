@@ -2,7 +2,7 @@
 title: "Prerequisites for Workshop One: Building Managed Packages with SFDX"
 permalink: /prerequisites/workshop-one/
 excerpt: "Excerpt TBA"
-last_modified_at: 2018-11-14
+last_modified_at: 2019-05-29
 toc: false
 classes: wide
 ---
@@ -27,26 +27,27 @@ classes: wide
 
 ## Step Three: Install the Salesforce Extensions for VS Code
 
-**Why?** VS Code is the IDE, but the Salesforce Extensions are what lets you talk to the Salesforce CLI.  Luckily, installing plugins with VS Code is a breeze.
+**Why?** VS Code is the IDE, but the Salesforce Extensions for VS Code actually let you talk to the Salesforce CLI.  Luckily, installing plugins with VS Code is a breeze.
 {: .notice--success}
 
 * Visit [https://developer.salesforce.com/tools/extension_vscode](https://developer.salesforce.com/tools/extension_vscode)
 * Follow all of the steps listed under “Getting Started”
 
-## Step Four: Enable the Developer Hub Feature in Your Personal PBO
+## Step Four: Make sure the Developer Hub Feature is Enabled in Your PBO
 
-**Why?** Dev Hubs inside of Partner Business Orgs have special entitlements that standard trial or DE Dev Hub orgs don't get.  These entitlements will be needed to get a feel for the ISV Partner experience and to follow along with some of the exercises in the workshop.
+**Why?** Dev Hubs inside of Partner Business Orgs (PBOs) have special entitlements that other DevHubs don't get. While you _can_ complete Workshop One with a DevHub from a trial or DE org, you _should_ use the DevHub in your PBO, if possible.
 {: .notice--success}
 
-* Login to PBO (Partner Business Org)
+* Login to your PBO (Partner Business Org)
+    * **NOTE:** If you do not have access to your company's PBO, you can use a __new__ trial or DE org as your Dev Hub instead of your PBO. If you go this route, remember that you'll be limited to 3/6 active/daily scratch orgs. 
 * Open Setup and type “Dev Hub” in the Quick Find search box
     * **IMPORTANT:** If you _do not_ have the Dev Hub feature available in Setup, please use the following troubleshooting steps
         * Make sure the org you're in is _really_ your PBO and not a random org that you _think_ is your PBO
-        * Open a case with support and ask them to activate the Dev Hub in your PBO and provide you with the appropriate entitlements (20/40 active/daily scratch orgs and 100 SLAF licenses)
+        * Open a case with support and ask them to activate the Dev Hub in your PBO and provide you with the appropriate entitlements (exact entitlements will depend on your partner status)
 * Click on the **Dev Hub** setup item
 * If it's not already enabled, flip the switch to enable the Dev Hub
 
-## Step Five: Make Sure That Your PBO Has “My Domain” Setup
+## Step Five: Make Sure That Your Dev Hub Org has “My Domain” Setup
 
 **Why?**  One of the key features of Salesforce DX for ISVs is the linking of a packaging org's namespace to your Developer Hub in order to create “namespaced scratch orgs”.  To make this work, your Dev Hub org _must_ have My Domain enabled _and_ deployed to users.
 {: .notice--success}

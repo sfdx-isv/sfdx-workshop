@@ -2,7 +2,7 @@
 title: "Unit 1: Developer Hub Fundamentals"
 permalink: /sfdx-managed-packages/unit-1-overview/
 excerpt: "Excerpt TBA"
-last_modified_at: 2018-11-01
+last_modified_at: 2019-05-29
 toc: false
 classes: wide
 ---

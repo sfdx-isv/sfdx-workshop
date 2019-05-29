@@ -2,7 +2,7 @@
 title: "Prerequisites for Workshop Two: Team Development with SFDX"
 permalink: /prerequisites/workshop-two/
 excerpt: "Excerpt TBA"
-last_modified_at: 2018-11-14
+last_modified_at: 2019-05-29
 toc: false
 classes: wide
 ---
@@ -39,6 +39,7 @@ classes: wide
 * **Time Required:** 1hr 50mins
 * It is strongly recommended that you complete this Trailhead module before attempting to certify that you've completed the prerequisites.
 
+<!--
 ## FINAL STEP: Certify That You Have Completed the PreRequisites (Required)
 
 **Why?** The Prerequisite Certification Process will ensure that you have a valid GitHub account and that you've correctly installed and configured Git on your local machine.  Students who complete the pre-requisites will be added to a team Developer Hub and will be added as collaborators to the shared project repository that will be used for the hands-on exercises during Day Two of the workshop.
@@ -51,4 +52,4 @@ classes: wide
 * After you complete the **Prerequisite Certification Process** from the previous step, a Salesforce User account will be created for you in the workshop leader's Developer Hub.
     * You should receive a “new user” email approximately 12 - 24 hours after completing the Prerequisite Certification
     * If you don't receive your “new user” email, please email your workshop leader.
-
+-->

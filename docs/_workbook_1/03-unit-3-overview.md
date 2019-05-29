@@ -2,7 +2,7 @@
 title: "Unit 3: Salesforce DX Project Fundamentals"
 permalink: /sfdx-managed-packages/unit-3-overview/
 excerpt: "Excerpt TBA"
-last_modified_at: 2018-11-14
+last_modified_at: 2019-05-29
 toc: false
 classes: wide
 ---

@@ -4,8 +4,9 @@ main:
     url: /prerequisites/overview/
   - title: "Building Managed Packages with SFDX"
     url: /
-  - title: "Team Development with SFDX"
-    url: /sfdx-team-development/overview/
+# Commented out until this module can be rebuilt for public consumption
+#  - title: "Team Development with SFDX"
+#    url: /sfdx-team-development/overview/
 
 # Workbook 0 (Prerequisites)
 workbook_0:
@@ -15,8 +16,9 @@ workbook_0:
         url: /prerequisites/overview/
       - title: "Prerequisites for Workshop One: Building Managed Packages with SFDX"
         url: /prerequisites/workshop-one/
-      - title: "Prerequisites for Workshop Two: Team Development with SFDX"
-        url: /prerequisites/workshop-two/
+# Commented out until this Workshop Two can be rebuilt for public consumption
+#      - title: "Prerequisites for Workshop Two: Team Development with SFDX"
+#        url: /prerequisites/workshop-two/
 
 
 # Workbook 1 (Managed Packages with SFDX)
@@ -133,8 +135,9 @@ workbook_1:
         url: /sfdx-managed-packages/review-what-we-learned/
       - title: "Ideas for Further Study"
         url: /sfdx-managed-packages/ideas-for-further-study/
-      - title: "Prepare for the Next Workshop"
-        url: /sfdx-managed-packages/prepare-for-next-workshop/
+# Commented out until this Workshop Two can be rebuilt for public consumption
+#      - title: "Prepare for the Next Workshop"
+#        url: /sfdx-managed-packages/prepare-for-next-workshop/
 
 
 # Workbook 2 (Team Development with SFDX)
