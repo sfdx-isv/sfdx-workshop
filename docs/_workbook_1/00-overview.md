@@ -1,5 +1,5 @@
 ---
-title: "Building First-Generation Managed Packages (1GPs) with Salesforce DX"
+title: "Building Managed 1GP Packages with Salesforce DX"
 permalink: /
 excerpt: "Excerpt TBA"
 last_modified_at: 2019-05-29
