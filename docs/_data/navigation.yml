@@ -2,7 +2,7 @@
 main:
   - title: "Prerequisites"
     url: /prerequisites/overview/
-  - title: "Building Managed Packages with SFDX"
+  - title: "Building 1GP Managed Packages with SFDX"
     url: /
 # Commented out until this module can be rebuilt for public consumption
 #  - title: "Team Development with SFDX"
@@ -23,7 +23,7 @@ workbook_0:
 
 # Workbook 1 (Managed Packages with SFDX)
 workbook_1:
-  - title: "Building Managed Packages with Salesforce DX"
+  - title: "Building First-Generation Managed Packages (1GPs) with Salesforce DX"
     children: 
       - title: "Workbook Overview"
         url: /
